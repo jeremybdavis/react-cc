@@ -2,6 +2,7 @@ import React from 'react/addons';
 import Cards from './cards';
 
 class App extends React.Component {
+
   render() {
     return(
       <div className="wrapper">
