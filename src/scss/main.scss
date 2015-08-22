@@ -1,0 +1,68 @@
+@import "lib/bourbon/bourbon.scss";
+@import "lib/neat/neat.scss";
+
+.wrapper{
+  width: 450px;
+  margin: 5px auto;
+
+  .content{
+    background: #EEE;
+    position: relative;
+    padding: 10px;
+    margin: 10px 0;
+
+    h1{
+      color: #333;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      margin: 0;
+    }
+
+    .cards{
+      width: 350px;
+      height: 200px;
+      border-radius: 10px;
+      background: #DDD;
+      margin: 30px auto;
+      padding: 20px 30px;
+
+      h2{
+        margin: 0;
+        font-weight: normal;
+        color: dimgrey;
+      }
+
+      .inputs{
+        display: table-caption;
+      }
+
+      .number{
+        font-size: 1.3rem;
+        margin: 20px 0;
+      }
+
+      .expiration{
+        p{
+          margin: 0;
+          font-size: 10px;
+          color: slategray;
+          font-weight: 600;
+        }
+        .month, .year{
+          width: 27px;
+        }
+
+        span{
+          color: slategray;
+          font-weight: bolder;
+        }
+      }
+
+      .name{
+        margin: 10px 0 0 0;
+        font-size: 12px;
+      }
+    }
+  }
+}
