@@ -23,6 +23,7 @@
     "istanbulify": "^0.1.0",
     "jasmine": "^2.3.1",
     "jasmine-core": "^2.3.4",
+    "jquery": "^2.1.4",
     "karma": "^0.13.3",
     "karma-browserify": "^4.2.1",
     "karma-chrome-launcher": "^0.2.0",

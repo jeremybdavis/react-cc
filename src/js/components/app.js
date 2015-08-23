@@ -5,10 +5,10 @@ class App extends React.Component {
 
   render() {
     return(
-      <div className="wrapper">
-        <div className="content">
-          <h1>Pay Here</h1>
-          <Cards/>
+      <div className="main-container">
+        <h1>Pay Here</h1>
+        <div className="wrapper">
+            <Cards/>
         </div>
       </div>
     )
